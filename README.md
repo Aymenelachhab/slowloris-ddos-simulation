@@ -8,8 +8,8 @@
 3. Provides a ready‑made Wireshark capture (`pcap/attack_sample.pcapng`) so you can inspect the packet pattern.
 
 ## Screenshots
-<img src="p1.png" width="700" alt="login">
-<img src="p2.png" width="700" alt="dashboard">
+<img src="p1.png" width="700" alt="dash1">
+<img src="p2.png" width="700" alt="dash2">
 
 ## Quick start
 
