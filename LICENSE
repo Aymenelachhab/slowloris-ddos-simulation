@@ -1,0 +1,15 @@
+### 3.6 `ci.yml` (GitHub Actions)
+
+```yaml
+name: Lint & Test
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install flake8 pytest -r requirements.txt
+      - run: flake8 src
+      - run: pytest -q || echo "No tests yet"

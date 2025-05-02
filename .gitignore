@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+# Virtual‑envs
+.venv/
+env/
+# Secrets
+*.env
+# Captures bigger than 95 MB should be in Git LFS
